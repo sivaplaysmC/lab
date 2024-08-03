@@ -1,3 +1,8 @@
+
+/*
+ * Write a Code to Perform simple calculator operations by getting 2 numbers from users.
+[addition,subtraction,multiplication,division,Quotient,Remainder]
+ */
 import java.util.Scanner;
 
 public class SimpleCalc {
