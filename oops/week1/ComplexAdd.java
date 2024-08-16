@@ -13,14 +13,14 @@ class ComplexNumber {
 
 public class ComplexAdd {
   public static void main(String[] args) {
-    ComplexNumber a = new ComplexNumber(1,2); 
-    ComplexNumber b = new ComplexNumber(2,3);
-    System.out.printf("A: %d + %di\n",a.real, a.imag);
-    System.out.printf("B: %d + %di\n",b.real, b.imag);
+    ComplexNumber a = new ComplexNumber(1, 2);
+    ComplexNumber b = new ComplexNumber(2, 3);
+    System.out.printf("A: %d + %di\n", a.real, a.imag);
+    System.out.printf("B: %d + %di\n", b.real, b.imag);
 
     ComplexNumber res = a.add(b);
 
-    System.out.printf("Result: %d + %di\n",res.real, res.imag);
+    System.out.printf("Result: %d + %di\n", res.real, res.imag);
 
   }
 }
